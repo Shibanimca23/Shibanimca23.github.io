@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--=============== Bootstrap===============-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+
+        <link rel="stylesheet" href="./assets/css/styles.css">
+
+        <title> Shibani Portfolio Project </title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav-logo">Portfolio</a>
+                <div class="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link active-link">
+                                <i class='bx bx-home-alt'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">
+                                <i class='bx bx-user' ></i> 
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#skills" class="nav-link">
+                                <i class='bx bxl-graphql'></i>  
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#projects" class="nav-link">
+                                <i class='bx bx-briefcase-alt-2'></i> 
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">
+                                <i class='bx bx-message-square-detail'></i></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- theme change button -->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+            </nav>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <!--=============== HOME ===============-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__greeting">Hello, I'm</span>
+                        <h1 class="home__name">Sahaya Shibani</h1>
+                        <h3 class="home__education">Software Developer</h3>
+
+                        <div class="home__buttons">
+                            <a href="assets/pdf/myResume.pdf" class="button button--ghost">
+                                View CV
+                            </a>
+                            <a href="#about" class="button">About me</a>
+                        </div>
+                    </div>
+                    <!-- <div class="home__handle">
+                        <img src="assets/img/shibani1-removebg-preview.png" alt="" class="home__img">
+                    </div> -->
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/shibani-shibani-84a251233/" class="home__social-link" target="_parent">
+                            <i class='bx bxl-linkedin' ></i>
+                        </a>
+                        <a href="https://github.com/Shibanimca23" class="home__social-link" target="_parent">
+                            <i class='bx bxl-github' ></i>
+                        </a>
+                        <!-- <a href="https://dribbble.com/" class="home__social-link" target="_blank">
+                            <i class='bx bxl-dribbble' ></i> 
+                        </a> -->
+                    </div>
+                    <a href="#about" class="home__scroll">
+                        <i class='bx bx-mouse home__scroll-icon' ></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                    </a>
+                </div>
+            </section>
+            
+            <!--=============== ABOUT ===============-->
+            <section class="about section" id="about">
+                <!-- <span class="section__subtitle">My Intro</span> -->
+                <h2 class="section__title">About Me</h2>
+                <div class="about__container container grid">
+                    <img src="assets/img/shibani.jpg" alt="" class="about__img">
+                   
+                    <div class="about__data">
+                        <!-- <div class="about__info">
+                            <div class="about__box">
+                                <i class='bx bx-award'></i>
+                                <h3 class="about__title">Name</h3>
+                                <span class="about__subtitle">Sahaya Shibani</span>
+                            </div>
+
+                            <div class="about__box">
+                         <i class='bx bx-briefcase-alt'></i>
+                                <h3 class="about__title">Email</h3>
+                                <span class="about__subtitle">sahayashibani2002@gmail.com</span>
+                            </div>
+                            <div class="about__box">
+                            <i class='bx bx-support'></i>
+                            <h3 class="about__title">Support</h3>
+                                       <span class="about__subtitle">online 24/7</span>
+                                   </div>
+                        </div> -->
+                        <p class="about__description">
+                           <b> I am Sahaya Shibani</b>, a enthusiastic student, I bring a passion for software development and a relentless commitment to learning. With a keen interest in software technology, I have actively sought opportunities to expand my knowledge and practical skills. My journey is marked by continuous growth, and I look forward to the exciting challenges ahead.</p>
+
+                        <!-- <a href="https://youtu.be/OWDadpjkTUM?si=n3sTYTM3ayZUFZK-" class="button">My Intro Video</a> -->
+                        <div class="embed-responsive embed-responsive-16by9 ">
+                            <iframe width="200" height="100" src="https://www.youtube.com/embed/OWDadpjkTUM?si=n3sTYTM3ayZUFZK-" allowfullscreen>
+                            </iframe>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== SKILLS ===============-->
+            <section class="skills section" id="skills">
+                <h1 class="section__title">My Skills</h1>
+                <span class="section__subtitle"></span>
+
+                <div class="skills__container container grid">
+                    <div class="skills__content">
+                        <h3 class="skills_title">Frontend</h3>
+                        <div class="skills_box">
+                            <div class="skills_group">
+                                <div class="skills__data">
+                                    <i class="bx bxs-badge-check"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <i class="bx bxs-badge-check"></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">Javascript</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div> 
+                                <div class="skills__data">
+                                    <i class="bx bxs-badge-check"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                             
+                            <div class="skills_group">
+                                <!-- <div class="skills__data">
+                                    <i class="bx bxs-badge-check"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Bootstrap</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div> -->
+                                
+                                <!-- <div class="skills__data">
+                                    <i class="bx bxs-badge-check"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Git</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div> -->
+                                <!-- <div class="skills__data">
+                                    <i class="bx bxs-badge-check"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">React</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                </div>
+                <div class="skills__content">
+                    <h3 class="skills_title">Backend </h3>
+                    <div class="skills_box">
+                        <div class="skills_group">
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+
+                                <div>
+                                    <h3 class="skills__name">Java</h3>
+                                    <span class="skills__level">Basics</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+
+                                <div>
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__level">Basics</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+
+                                <div>
+                                    <h3 class="skills__name">MySQL</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="skills_group">
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+
+                                <div>
+                                    <h3 class="skills__name">Firebase</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div> -->
+                            <!-- <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+
+                                <div>
+                                    <h3 class="skills__name">Git</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+
+                                <div>
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+            </div>
+                </div>
+            </section>
+            
+            <!--=============== project ===============-->
+            
+            <!--=============== PROJECT ===============-->
+            <section class="project section" id="projects">
+                <span class="section__subtitle">
+                    My Projects
+                </span> 
+                <h2 class="section__title">project</h2>
+                 <div class="project__container container swiper">
+                    <div class="swiper-wrapper">
+                        <div class="project__card swiper-slide">
+                           <a href="https://shibanimca23.github.io/Ball-movement/"> <img src="./assets/img/bouncing-ball-3_orig.gif" alt="" class="project__img"></a>
+                            <h3 class="project__name">ball movement</h3>
+                            <div>
+                            <a href="https://github.com/Shibanimca23/Ball-movement"><i class='bx bx-link-alt'></i></a>
+                            <a href="https://shibanimca23.github.io/Ball-movement/"><i class='bx bx-link-external' ></i></a></div>
+                            <!-- <p class="project__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat veritatis cupiditate dolores sunt quisquam magnam, voluptas quibusdam facere quis doloremque?</p> -->
+                        </div>
+                        <div class="project__card swiper-slide">
+                            <a href="https://shibanimca23.github.io/random-ball-movement/"><img src="./assets/img/gif-animated-color-bouncing-balls.gif.crdownload" alt="" class="project__img"></a>
+                            <h3 class="project__name">Bouncing balls</h3>
+                           <div> <a href="https://github.com/Shibanimca23/random-ball-movement"><i class='bx bx-link-alt'></i></a>
+                            <a href="https://shibanimca23.github.io/random-ball-movement/"><i class='bx bx-link-external' ></i></a></div>
+                            <!-- <p class="project__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat veritatis cupiditate dolores sunt quisquam magnam, voluptas quibusdam facere quis doloremque?</p> -->
+                        </div>
+                        <div class="project__card swiper-slide">
+                           <a href="https://shibanimca23.github.io/eyeball-movement/"> <img src="./assets/img/eye-ball-rotating.gif" alt="" class="project__img"></a>
+                            <h3 class="project__name">EyeBall Movement</h3>
+                            <div><a href="https://github.com/Shibanimca23/eyeball-movement"><i class='bx bx-link-alt'></i></a>
+                            <a href="https://shibanimca23.github.io/eyeball-movement/"><i class='bx bx-link-external' ></i></a></div>
+                            <!-- <p class="project__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat veritatis cupiditate dolores sunt quisquam magnam, voluptas quibusdam facere quis doloremque?</p> -->
+                        </div>
+                        <div class="project__card swiper-slide">
+                            <a href="https://shibanimca23.github.io/Pacman-moving/"><img src="./assets/img/pacmanmoving.gif.crdownload" alt="" class="project__img"></a>
+                            <h3 class="project__name">Moving PacMan</h3>
+                            <div>
+                                <a href="https://github.com/Shibanimca23/Pacman-moving"><i class='bx bx-link-alt'></i></a>
+                            <a href="https://shibanimca23.github.io/Pacman-moving/"><i class='bx bx-link-external' ></i></a></div>
+                            <!-- <p class="project__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat veritatis cupiditate dolores sunt quisquam magnam, voluptas quibusdam facere quis doloremque?</p> -->
+                        </div>
+                       
+                        <div class="project__card swiper-slide">
+                            <a href="https://shibanimca23.github.io/pacman-factory"><img src="./assets/img/pacmangiphy.gif" alt="" class="project__img"></a>
+                            <h3 class="project__name"> PacMan Factory</h3>
+                            <div>
+                                <a href="https://github.com/Shibanimca23/pacman-factory"><i class='bx bx-link-alt'></i></a>
+                            <a href="https://shibanimca23.github.io/pacman-factory/"><i class='bx bx-link-external' ></i></a></div>
+                            <!-- <p class="project__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat veritatis cupiditate dolores sunt quisquam magnam, voluptas quibusdam facere quis doloremque?</p> -->
+                        </div>
+                        <div class="project__card swiper-slide">
+                            <a href=" https://shibanimca23.github.io/Map-Moving/"><img src="./assets/img/map.jpg" alt="" class="project__img"></a>
+                            <h3 class="project__name"> Map</h3>
+                           <div> 
+                            <a href="https://github.com/Shibanimca23/Map-Moving"><i class='bx bx-link-alt'></i></a>
+                            <a href=" https://shibanimca23.github.io/Map-Moving/"><i class='bx bx-link-external' ></i></a></div>
+                            <!-- <p class="project__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat veritatis cupiditate dolores sunt quisquam magnam, voluptas quibusdam facere quis doloremque?</p> -->
+                        </div>
+                        <div class="project__card swiper-slide">
+                            <a href=" https://shibanimca23.github.io/tower-game/"><img src="./assets/img/hanoi_n4.gif" alt="" class="project__img"></a>
+                            <h3 class="project__name"> Tower Game</h3>
+                            <div>
+                                <a href="https://github.com/Shibanimca23/tower-game"><i class='bx bx-link-alt'></i></a>
+                            <a href="  https://shibanimca23.github.io/tower-game/"><i class='bx bx-link-external' ></i></a></div>
+                            
+                        </div>
+                        <div class="project__card swiper-slide">
+                            <a href="  https://shibanimca23.github.io/Walk-Boston/"><img src="./assets/img/boston.jpg" alt="" class="project__img"></a>
+                            <h3 class="project__name"> Boston City Data</h3>
+                            <div>
+                                <a href="https://github.com/Shibanimca23/Walk-Boston"><i class='bx bx-link-alt'></i></a>
+                            <a href="https://shibanimca23.github.io/Walk-Boston/"><i class='bx bx-link-external' ></i></a></div>
+                            
+                        </div>
+                        <div class="project__card swiper-slide">
+                            <a href="https://shibanimca23.github.io/word-counter/"><img src="./assets/img/word.jpg" alt="" class="project__img"></a>
+                            <h3 class="project__name">Word count</h3>
+                            <div>
+                                <a href="https://github.com/Shibanimca23/word-counter"><i class='bx bx-link-alt'></i></a>
+                            <a href="https://shibanimca23.github.io/word-counter/"><i class='bx bx-link-external' ></i></a></div>
+                            
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            
+            </section>  
+
+            <!--=============== CONTACT ===============-->
+            <section class="contact section" id="contact">
+                <span class="section__subtitle">Get in touch</span>
+                <h2 class="section__title">Contact Me</h2>
+
+                <div class="contact__container container grid">
+                    <div class="contact__content">
+                        <h3 class="contact__title">Talk to me</h3>
+                        <div class="contact__info">
+                            <div class="contact__card">
+                                <i class="bx bx-mail-send contact__card-icon"></i>
+                                <h3 class="contact__card-title">Email</h3>
+                                <span class="contact__card-data">sahayashibani2002@gmail.com</span>
+                                <a href="mailto:sahayashibani2002@gmail.com" target="_parent" class="contact__button">
+                                    Write me <i class="'bx bx-right-arrow-alt contact__button-icon*"></i>
+                                </a>
+                            </div>
+                             
+                            <div class="contact__card">
+                                <i class='bx bxl-whatsapp contact__card-icon'></i>
+                                <h3 class="contact__card-title">Whatsapp</h3>
+                                <span class="contact__card-data">8825533038</span>
+                                <a href="https://api.whatsapp.com/send?phone=918825533038&text=Hello, more information!" target="_parent" class="contact__button">
+                                    Write me <i class="'bx bx-right-arrow-alt contact__button-icon*"></i>
+                                </a>
+                            </div>
+
+                            <div class="contact__card">
+                                <i class='bx bx-home-alt contact__card-icon'></i>
+                                <h3 class="contact__card-title">Address</h3>
+                                <span class="contact__card-data">15/220 carmel matha street,chinnamuttom,kanyakumari</span>
+                                <!-- <a href="#" target="_blank" class="contact__button">
+                                    Write me <i class="'bx bx-right-arrow-alt contact__button-icon*"></i>
+                                </a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="contact__content">
+                        <h3 class="contact__title">Write your message</h3>
+                        <form target="_blank" action="https://formsubmit.co/sahayashibani2002@gmail.com" method="POST" id="form" class="contact__form">
+                            <div class="contact__form-div col">
+                                <label for="" class="contact__form-tag">Name</label>
+                                <input type="text" placeholder="Insert your name" class="contact__form-input form-control">
+                            </div>
+                            <div class="contact__form-div col">
+                                <label for="" class="contact__form-tag">Mail</label>
+                                <input type="email" class="contact__form-input form-control" placeholder="Insert your email">
+                            </div>
+                            <div class="contact__form-div contact__form-area">
+                                <label for="" class="contact__form-tag">Message</label>
+                                <textarea name="" id="" cols="30" rows="10" class="contact__form-input form-control" placeholder="Write your message"></textarea>
+                            </div>   
+
+                     <button class="button btn btn-lg btn-dark btn-block" type="submit">Send Message</button>
+                        </form>
+                    </div> -->
+                    <div class="contact__content">
+                    <div class="container-form">
+                      <h3 class="contact__title">Write your message</h3>
+                      <form target="_parent" action="https://formsubmit.co/sahayashibani2002@gmail.com" method="POST" id="form" class="contact__form">
+                            <div class="form-row">
+                              <div class="contact__form-div col">
+                                <label for="" class="contact__form-tag">Name</label>
+                                <input type="text" name="name" class="form-control contact__form-input" placeholder="Insert your name" required>
+                              </div>
+                              <div class="contact__form-div col">
+                                <label for="" class="contact__form-tag">Mail</label>
+                                <input type="email" name="email" class="form-control contact__form-input" placeholder="Insert your email" required>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-group contact__form-div contact__form-area">
+                            <label for="" class="contact__form-tag">Message</label>
+                            <textarea placeholder="Write your message" class="form-control contact__form-input" name="message" rows="10" required></textarea>
+                          </div>
+                          <button type="Write your message" class=" button">Send Message</button>
+                        </form>
+                      </div>
+                    </div> 
+                      
+                       
+                                   
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer">
+            <div class="footer__container container">
+                <h1 class="footer__title">Shibani</h1>
+                <ul class="footer__list">
+                    <li>
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+                    <li>
+                        <a href="#project" class="footer__link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="" class="footer__link"></a>
+                    </li>
+                </ul>
+                <ul class="footer_social">
+                   
+                    
+                    <a href="https://www.facebook.com/settings?tab=notifications&section=sms&notif_id=1697082713113614&notif_t=reg_conf_sms&ref=notif" class="footer__social-link" target="_parent">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+
+                    <a href="https://instagram.com/the_ni8_shade?igshid=OGQ5ZDc2ODk2ZA==" class="footer__social-link" target="_parent">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="https://twitter.com/SahayaShib94655" class="footer__social-link" target="_parent">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+                </ul>
+                <span class="footer__copy">
+                    &#169; Shibani. All rights reserved
+                </span>
+            </div>
+        </footer>
+0
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src=""></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="./assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MIXITUP FILTER ===============-->
+        <script src=""></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="./assets/js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    </body>
+</html>
